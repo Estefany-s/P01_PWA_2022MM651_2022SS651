@@ -10,6 +10,7 @@ namespace P01_2022MM651_2022SS651.Models
         public int cantHoras { get; set; }
         public int id_usuario { get; set; }
         public int id_sucursal { get; set; }
+        public string? estado { get; set; }
 
     }
 }
